@@ -79,6 +79,9 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 + Or pluses
 ```
 
+
+
+
 1. First ordered list item 
    1. Ordered sublist 
 2. Another item 
@@ -154,6 +157,8 @@ From what I understood, Jekyll doesn't support source files inside collection fo
 Currently, what I do is, I upload images and attachments manually to `/assets/img/` and use
 
 ```
+
+![cables](/assets/img/cables.jpg)
 From Assets/Img
 
 ![Alt Text](/assets/img/1-how-to.png "Title Here")
@@ -163,7 +168,7 @@ to embed images. This is not effective, but works. Also, public URLs work
 ```
 From URL 
 
-![](https://jekyllrb.com/img/logo-2x.png)
+
 ```
 
 From Assets/Img
